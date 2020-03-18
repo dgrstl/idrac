@@ -1,0 +1,26 @@
+{
+    "$id": "http://redfish.dmtf.org/schemas/v1/Privileges.json",
+    "$schema": "http://redfish.dmtf.org/schemas/v1/redfish-schema-v1.json",
+    "copyright": "Copyright 2014-2019 DMTF. For the full DMTF copyright policy, see http://www.dmtf.org/about/policies/copyright",
+    "definitions": {
+        "PrivilegeType": {
+            "enum": [
+                "Login",
+                "ConfigureManager",
+                "ConfigureUsers",
+                "ConfigureSelf",
+                "ConfigureComponents"
+            ],
+            "enumDescriptions": {
+                "ConfigureComponents": "Can configure components that this service manages.",
+                "ConfigureManager": "Can configure managers.",
+                "ConfigureSelf": "Can change the password for the current user account.",
+                "ConfigureUsers": "Can configure users and their accounts.",
+                "Login": "Can log in to the service and read Resources."
+            },
+            "type": "string"
+        }
+    },
+    "owningEntity": "DMTF",
+    "title": "#Privileges"
+}

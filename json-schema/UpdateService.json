@@ -1,0 +1,125 @@
+{
+    "$id": "http://redfish.dmtf.org/schemas/v1/UpdateService.json",
+    "$ref": "#/definitions/UpdateService",
+    "$schema": "http://redfish.dmtf.org/schemas/v1/redfish-schema-v1.json",
+    "copyright": "Copyright 2014-2019 DMTF. For the full DMTF copyright policy, see http://www.dmtf.org/about/policies/copyright",
+    "definitions": {
+        "UpdateParameters": {
+            "anyOf": [
+                {
+                    "$ref": "http://redfish.dmtf.org/schemas/v1/UpdateService.v1_6_0.json#/definitions/UpdateParameters"
+                }
+            ]
+        },
+        "UpdateService": {
+            "anyOf": [
+                {
+                    "$ref": "http://redfish.dmtf.org/schemas/v1/odata-v4.json#/definitions/idRef"
+                },
+                {
+                    "$ref": "http://redfish.dmtf.org/schemas/v1/UpdateService.v1_0_0.json#/definitions/UpdateService"
+                },
+                {
+                    "$ref": "http://redfish.dmtf.org/schemas/v1/UpdateService.v1_0_1.json#/definitions/UpdateService"
+                },
+                {
+                    "$ref": "http://redfish.dmtf.org/schemas/v1/UpdateService.v1_0_2.json#/definitions/UpdateService"
+                },
+                {
+                    "$ref": "http://redfish.dmtf.org/schemas/v1/UpdateService.v1_0_3.json#/definitions/UpdateService"
+                },
+                {
+                    "$ref": "http://redfish.dmtf.org/schemas/v1/UpdateService.v1_0_4.json#/definitions/UpdateService"
+                },
+                {
+                    "$ref": "http://redfish.dmtf.org/schemas/v1/UpdateService.v1_0_5.json#/definitions/UpdateService"
+                },
+                {
+                    "$ref": "http://redfish.dmtf.org/schemas/v1/UpdateService.v1_0_6.json#/definitions/UpdateService"
+                },
+                {
+                    "$ref": "http://redfish.dmtf.org/schemas/v1/UpdateService.v1_0_7.json#/definitions/UpdateService"
+                },
+                {
+                    "$ref": "http://redfish.dmtf.org/schemas/v1/UpdateService.v1_1_0.json#/definitions/UpdateService"
+                },
+                {
+                    "$ref": "http://redfish.dmtf.org/schemas/v1/UpdateService.v1_1_1.json#/definitions/UpdateService"
+                },
+                {
+                    "$ref": "http://redfish.dmtf.org/schemas/v1/UpdateService.v1_1_2.json#/definitions/UpdateService"
+                },
+                {
+                    "$ref": "http://redfish.dmtf.org/schemas/v1/UpdateService.v1_1_3.json#/definitions/UpdateService"
+                },
+                {
+                    "$ref": "http://redfish.dmtf.org/schemas/v1/UpdateService.v1_1_4.json#/definitions/UpdateService"
+                },
+                {
+                    "$ref": "http://redfish.dmtf.org/schemas/v1/UpdateService.v1_1_5.json#/definitions/UpdateService"
+                },
+                {
+                    "$ref": "http://redfish.dmtf.org/schemas/v1/UpdateService.v1_1_6.json#/definitions/UpdateService"
+                },
+                {
+                    "$ref": "http://redfish.dmtf.org/schemas/v1/UpdateService.v1_2_0.json#/definitions/UpdateService"
+                },
+                {
+                    "$ref": "http://redfish.dmtf.org/schemas/v1/UpdateService.v1_2_1.json#/definitions/UpdateService"
+                },
+                {
+                    "$ref": "http://redfish.dmtf.org/schemas/v1/UpdateService.v1_2_2.json#/definitions/UpdateService"
+                },
+                {
+                    "$ref": "http://redfish.dmtf.org/schemas/v1/UpdateService.v1_2_3.json#/definitions/UpdateService"
+                },
+                {
+                    "$ref": "http://redfish.dmtf.org/schemas/v1/UpdateService.v1_2_4.json#/definitions/UpdateService"
+                },
+                {
+                    "$ref": "http://redfish.dmtf.org/schemas/v1/UpdateService.v1_2_5.json#/definitions/UpdateService"
+                },
+                {
+                    "$ref": "http://redfish.dmtf.org/schemas/v1/UpdateService.v1_3_0.json#/definitions/UpdateService"
+                },
+                {
+                    "$ref": "http://redfish.dmtf.org/schemas/v1/UpdateService.v1_3_1.json#/definitions/UpdateService"
+                },
+                {
+                    "$ref": "http://redfish.dmtf.org/schemas/v1/UpdateService.v1_3_2.json#/definitions/UpdateService"
+                },
+                {
+                    "$ref": "http://redfish.dmtf.org/schemas/v1/UpdateService.v1_3_3.json#/definitions/UpdateService"
+                },
+                {
+                    "$ref": "http://redfish.dmtf.org/schemas/v1/UpdateService.v1_4_0.json#/definitions/UpdateService"
+                },
+                {
+                    "$ref": "http://redfish.dmtf.org/schemas/v1/UpdateService.v1_4_1.json#/definitions/UpdateService"
+                },
+                {
+                    "$ref": "http://redfish.dmtf.org/schemas/v1/UpdateService.v1_4_2.json#/definitions/UpdateService"
+                },
+                {
+                    "$ref": "http://redfish.dmtf.org/schemas/v1/UpdateService.v1_5_0.json#/definitions/UpdateService"
+                },
+                {
+                    "$ref": "http://redfish.dmtf.org/schemas/v1/UpdateService.v1_5_1.json#/definitions/UpdateService"
+                },
+                {
+                    "$ref": "http://redfish.dmtf.org/schemas/v1/UpdateService.v1_6_0.json#/definitions/UpdateService"
+                }
+            ],
+            "deletable": false,
+            "description": "The UpdateService schema describes the Update Service and the properties for the Service itself with links to collections of firmware and software inventory.  The Update Service also provides methods for updating software and firmware of the Resources in a Redfish Service.",
+            "insertable": false,
+            "longDescription": "This Resource shall represent an Update Service and the properties that affect the Service itself for a Redfish implementation.",
+            "updatable": true,
+            "uris": [
+                "/redfish/v1/UpdateService"
+            ]
+        }
+    },
+    "owningEntity": "DMTF",
+    "title": "#UpdateService.UpdateService"
+}
