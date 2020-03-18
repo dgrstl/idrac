@@ -1,0 +1,14 @@
+  {
+    "formats": {
+    "openapi": {
+      "rootDir": "openapi"
+    },
+    "json_schema": {
+      "rootDir": "json-schema"
+    },
+    "markdown": {
+      "rootDir": "docs"
+    },
+  },
+  "exclude": ["./csdl/*"]
+}
