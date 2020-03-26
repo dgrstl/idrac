@@ -173,7 +173,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: https://redfish.dmtf.org/schemas/v1/ManagerAccount.yaml#/components/schemas/ManagerAccount
+              $ref: ./ManagerAccount.yaml#/components/schemas/ManagerAccount
         required: true
       responses:
         '201':
